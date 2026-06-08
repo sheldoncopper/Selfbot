@@ -1,6 +1,6 @@
 module github.com/selfbot/selfbot
 
-go 1.26.3
+go 1.24.3
 
 require (
 	github.com/go-telegram/bot v1.21.0
