@@ -1,0 +1,22 @@
+# Secrets & local config
+.env
+*.env
+!.env.example
+
+# SQLite database & data dir
+/data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Build artifacts
+/selfbot
+/selfbot.exe
+/out/
+/bin/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
